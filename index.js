@@ -3,8 +3,8 @@ const bot = new Discord.Client();
 
 bot.on('message', (message) => {
 
-    if(message.content == 'sup') {
-        message.reply('sup human');
+    if(message.content == 'hi') {
+        message.reply('sup');
     }
 });
 
